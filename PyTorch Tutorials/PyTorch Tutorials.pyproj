@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>452a1fb8-332a-489d-afbc-31c21f86c160</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>data_loading_tutorial.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,8 +22,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="data_loading_tutorial.py" />
+    <Compile Include="dynamic_net.py" />
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="reinforcement_q_learning.py" />
     <Compile Include="tensor_tutorial.py" />
+    <Compile Include="tf_two_layer_net.py" />
+    <Compile Include="two_layer_net_autograd.py" />
+    <Compile Include="two_layer_net_custom_function.py" />
+    <Compile Include="two_layer_net_module.py" />
     <Compile Include="two_layer_net_nn.py" />
+    <Compile Include="two_layer_net_numpy.py" />
+    <Compile Include="two_layer_net_optim.py" />
+    <Compile Include="two_layer_net_tensor.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
