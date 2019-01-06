@@ -24,6 +24,7 @@
   <ItemGroup>
     <Compile Include="data_loading_tutorial.py" />
     <Compile Include="tensor_tutorial.py" />
+    <Compile Include="two_layer_net_nn.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
