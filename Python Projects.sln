@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python Projects", "Python Projects\Python Projects.pyproj", "{65FFD9FF-4DDA-4908-9301-F3BB3981A80B}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Main", "Python Projects\Main.pyproj", "{65FFD9FF-4DDA-4908-9301-F3BB3981A80B}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyTorch Tutorials", "PyTorch Tutorials\PyTorch Tutorials.pyproj", "{452A1FB8-332A-489D-AFBC-31C21F86C160}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{65FFD9FF-4DDA-4908-9301-F3BB3981A80B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65FFD9FF-4DDA-4908-9301-F3BB3981A80B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452A1FB8-332A-489D-AFBC-31C21F86C160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452A1FB8-332A-489D-AFBC-31C21F86C160}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

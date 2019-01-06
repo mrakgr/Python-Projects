@@ -2,15 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>65ffd9ff-4dda-4908-9301-f3bb3981a80b</ProjectGuid>
+    <ProjectGuid>452a1fb8-332a-489d-afbc-31c21f86c160</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_Projects.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Python Projects</Name>
-    <RootNamespace>Python Projects</RootNamespace>
+    <Name>PyTorch Tutorials</Name>
+    <RootNamespace>PyTorch Tutorials</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python_Projects.py" />
+    <Compile Include="data_loading_tutorial.py" />
     <Compile Include="tensor_tutorial.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
