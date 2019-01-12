@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>452a1fb8-332a-489d-afbc-31c21f86c160</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>data_loading_tutorial.py</StartupFile>
+    <StartupFile>reinforcement_q_learning.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

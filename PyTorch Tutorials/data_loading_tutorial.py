@@ -375,8 +375,7 @@ dataloader = DataLoader(transformed_dataset, batch_size=4,
 # Helper function to show a batch
 def show_landmarks_batch(sample_batched):
     """Show image with landmarks for a batch of samples."""
-    images_batch, landmarks_batch = \
-            sample_batched['image'], sample_batched['landmarks']
+    images_batch, landmarks_batch = sample_batched['image'], sample_batched['landmarks']
     batch_size = len(images_batch)
     im_size = images_batch.size(2)
 
