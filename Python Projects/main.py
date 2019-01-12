@@ -1,7 +1,16 @@
-import gym
-env = gym.make('CartPole-v0')
-env.reset()
-for _ in range(100):
-    env.render()
-    env.step(env.action_space.sample()) # take a random action
+import pyglet
+
+window = pyglet.window.Window()
+label = pyglet.text.Label('Hello, world', 
+                          font_name='Times New Roman', 
+                          font_size=36,
+                          x=window.width//2, y=window.height//2,
+                          anchor_x='center', anchor_y='center')
+
+@window.event
+def on_draw():
+    window.clear()
+    label.draw()
+
+pyglet.app.run()
 

@@ -26,6 +26,49 @@
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="gym\" />
+    <Folder Include="gym\.git\" />
+    <Folder Include="gym\.git\hooks\" />
+    <Folder Include="gym\.git\info\" />
+    <Folder Include="gym\.git\logs\" />
+    <Folder Include="gym\.git\logs\refs\" />
+    <Folder Include="gym\.git\logs\refs\heads\" />
+    <Folder Include="gym\.git\logs\refs\remotes\" />
+    <Folder Include="gym\.git\logs\refs\remotes\origin\" />
+    <Folder Include="gym\.git\objects\" />
+    <Folder Include="gym\.git\objects\info\" />
+    <Folder Include="gym\.git\objects\pack\" />
+    <Folder Include="gym\.git\refs\" />
+    <Folder Include="gym\.git\refs\heads\" />
+    <Folder Include="gym\.git\refs\remotes\" />
+    <Folder Include="gym\.git\refs\remotes\origin\" />
+    <Folder Include="gym\.git\refs\tags\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gym\.git\config" />
+    <Content Include="gym\.git\description" />
+    <Content Include="gym\.git\HEAD" />
+    <Content Include="gym\.git\hooks\applypatch-msg.sample" />
+    <Content Include="gym\.git\hooks\commit-msg.sample" />
+    <Content Include="gym\.git\hooks\post-update.sample" />
+    <Content Include="gym\.git\hooks\pre-applypatch.sample" />
+    <Content Include="gym\.git\hooks\pre-commit.sample" />
+    <Content Include="gym\.git\hooks\pre-push.sample" />
+    <Content Include="gym\.git\hooks\pre-rebase.sample" />
+    <Content Include="gym\.git\hooks\prepare-commit-msg.sample" />
+    <Content Include="gym\.git\hooks\update.sample" />
+    <Content Include="gym\.git\index" />
+    <Content Include="gym\.git\info\exclude" />
+    <Content Include="gym\.git\logs\HEAD" />
+    <Content Include="gym\.git\logs\refs\heads\master" />
+    <Content Include="gym\.git\logs\refs\remotes\origin\HEAD" />
+    <Content Include="gym\.git\objects\pack\pack-75feaf744bc3af41efd1e10aed6eeb5053331bd2.idx" />
+    <Content Include="gym\.git\objects\pack\pack-75feaf744bc3af41efd1e10aed6eeb5053331bd2.pack" />
+    <Content Include="gym\.git\packed-refs" />
+    <Content Include="gym\.git\refs\heads\master" />
+    <Content Include="gym\.git\refs\remotes\origin\HEAD" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
