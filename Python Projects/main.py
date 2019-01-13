@@ -1,8 +1,18 @@
-for n in range(2, 10):
-    for x in range(2, n):
-        if n % x == 0:
-            print(n, 'equals', x, '*', n//x)
-            break
-    else:
-        # loop fell through without finding a factor
-        print(n, 'is a prime number')
+class B(Exception):
+    pass
+
+class C(B):
+    pass
+
+class D(C):
+    pass
+
+for cls in [B, C, D]:
+    try:
+        raise cls()
+    except B:
+        print("B")
+    except D:
+        print("D")
+    except C:
+        print("C")
