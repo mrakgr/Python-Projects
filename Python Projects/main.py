@@ -35,4 +35,3 @@ feet_entry.focus()
 root.bind('<Return>', calculate)
 
 root.mainloop()
-
